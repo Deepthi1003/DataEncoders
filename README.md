@@ -19,5 +19,5 @@ We are getting the live data using the package called pycricbuzz and the data is
 1. Jupyter Notebook
 1. Power BI
 ## Programming language :
-Python
+* Python
 
