@@ -1,4 +1,7 @@
-# DataEncoders
+# Team Title:
+Data Encoders
+## Team Logo:
+![](https://github.com/Deepthi1003/DataEncoders/blob/main/Team_Logo.PNG)
 ## Team Members:
 1. Dheeraj Edupuganti
 1. Deepthi Tejaswini Chokka
@@ -11,3 +14,9 @@ We are getting the live data using the package called pycricbuzz and the data is
 1. Data generation : Raghunandan Naishadam
 1. Data cleaning : Deepthi Chokka and Nikitha Kethireddy
 1. Data Visualization : Dheeraj Edupuganti and Jeevan Mure
+## Tools used:
+1. Jupyter Notebook
+1. Power BI
+## Programming language :
+Python
+
