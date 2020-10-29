@@ -1,5 +1,5 @@
 ## Team Title:
-Data Encoders
+Data Encoders<br>
 ![](https://github.com/Deepthi1003/DataEncoders/blob/main/Team_Logo.PNG)
 ## Team Members:
 1. Dheeraj Edupuganti
