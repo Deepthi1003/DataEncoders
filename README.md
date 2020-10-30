@@ -1,4 +1,4 @@
-## Team Title:
+## Project Title:
 Data Encoders<br>
 <br>
 <br>
