@@ -7,10 +7,6 @@ public class CustomObject {
         this.countryName = countryName;
     }
 
-
-
-
-
     public String getCountryName() {
         return countryName;
     }

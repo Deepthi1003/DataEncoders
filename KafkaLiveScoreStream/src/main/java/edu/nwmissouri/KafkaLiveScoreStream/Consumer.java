@@ -25,7 +25,7 @@ import java.util.Scanner;
  * Reads properties from the run.properties file in
  * src/main/resources.
  */
-public class CustomConsumer {
+public class Consumer {
     private static Scanner in;
     private static FileInputStream runStream = null;
     private static Properties runProperties = new Properties();
@@ -123,7 +123,6 @@ public class CustomConsumer {
                     for (ConsumerRecord<String, CustomObject> record : records) {
 
                         System.out.println("Country Name:" + record.value().getCountryName());
-//                        System.out.println("************"+record.value().toString());
                         String stringToParse = record.value().getCountryName();
                         doc = Document.parse(stringToParse);
                         collection.insertOne(doc);

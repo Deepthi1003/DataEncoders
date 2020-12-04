@@ -74,7 +74,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>edu.nwmissouri.KafkaLiveScoreStream.CustomProducer</mainClass>
+                            <mainClass>edu.nwmissouri.KafkaLiveScoreStream.Producer</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>

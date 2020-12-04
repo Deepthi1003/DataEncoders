@@ -127,10 +127,6 @@ public class Match
 		for(int i = 0; i < InningsToBeSorted.size(); i++)
 		{
 			Innings inn = InningsToBeSorted.get(new Integer(i+1));
-			if(inn==null)
-			{
-				//new CLog().l("NULL"); continue;
-			}
 			score.append(/*i+1 + ". " + */inn.getName() + " "+ inn.getInnscore() + "/"+ inn.getWickets() + " in " + inn.getOvers() + " overs\n");
 		}
 

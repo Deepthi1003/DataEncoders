@@ -13,7 +13,7 @@ import java.util.Properties;
  * Reads properties from the run.properties file in
  * src/main/resources.
  */
-public class CustomProducer {
+public class Producer {
     private static FileInputStream runStream = null;
     private static Properties runProperties = new Properties();
 
@@ -46,7 +46,7 @@ public class CustomProducer {
         System.out.println("==========================================");
         System.out.println("You must start a consumer to see messages.");
         System.out.println("==========================================");
-        System.out.println("\nStarting custom producer..............\n");
+        System.out.println("\nStarting producer..............\n");
 
 
 

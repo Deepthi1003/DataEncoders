@@ -24,9 +24,5 @@ public class Demo
 
         }
 
-        //System.out.println("Retreiving Commentary for first match : " + alm.get(0).getSeriesName() );
-
-        //Commentary c = CricBuzzParser.RetrieveCommentary(alm.get(0));
-        //System.out.println(c.toString());
     }
 }
