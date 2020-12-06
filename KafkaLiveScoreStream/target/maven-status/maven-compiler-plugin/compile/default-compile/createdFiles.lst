@@ -1,12 +1,12 @@
 edu\nwmissouri\KafkaLiveScoreStream\KafkaJsonDeserializer.class
 edu\nwmissouri\KafkaLiveScoreStream\KafkaJsonSerializer.class
-edu\nwmissouri\KafkaLiveScoreStream\CustomProducer.class
-edu\nwmissouri\KafkaLiveScoreStream\CustomConsumer$ConsumerThread.class
+edu\nwmissouri\KafkaLiveScoreStream\LiveScoreKafkaConsumer.class
+edu\nwmissouri\KafkaLiveScoreStream\LiveScoreKafkaConsumer$ConsumerThread.class
 edu\nwmissouri\KafkaLiveScoreStream\Match.class
 edu\nwmissouri\KafkaLiveScoreStream\CricBuzzParser.class
 edu\nwmissouri\KafkaLiveScoreStream\Team.class
 edu\nwmissouri\KafkaLiveScoreStream\CustomObject.class
-edu\nwmissouri\KafkaLiveScoreStream\CustomConsumer.class
+edu\nwmissouri\KafkaLiveScoreStream\LiveScoreKafkaProducer.class
 edu\nwmissouri\KafkaLiveScoreStream\Demo.class
 edu\nwmissouri\KafkaLiveScoreStream\Commentary$CommPOJO.class
 edu\nwmissouri\KafkaLiveScoreStream\Venue.class

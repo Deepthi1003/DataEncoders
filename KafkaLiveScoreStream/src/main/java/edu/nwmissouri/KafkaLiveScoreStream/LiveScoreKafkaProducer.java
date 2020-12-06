@@ -9,11 +9,11 @@ import java.io.FileInputStream;
 import java.util.Properties;
 
 /**
- * Custom Producer using Kafka for messaging.
+ * Custom LiveScoreKafkaProducer using Kafka for messaging.
  * Reads properties from the run.properties file in
  * src/main/resources.
  */
-public class Producer {
+public class LiveScoreKafkaProducer {
     private static FileInputStream runStream = null;
     private static Properties runProperties = new Properties();
 
@@ -33,7 +33,7 @@ public class Producer {
         String topicName = runProperties.getProperty("TOPIC");
         int delay_ms = Integer.parseInt(runProperties.getProperty("DELAY_MS"));
 
-        //Configure the Producer
+        //Configure the LiveScoreKafkaProducer
         Properties configProperties = new Properties();
         configProperties.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG,
                 runProperties.getProperty("BOOTSTRAP_SERVERS_CONFIG"));

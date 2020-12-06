@@ -17,9 +17,6 @@ public class Demo
 
             System.out.println(m.getScoreCard());
 
-            System.out.println(m.getScorecard());
-
-
             System.out.println(m.getCommentary());
 
         }

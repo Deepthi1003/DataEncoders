@@ -21,11 +21,11 @@ import java.util.Properties;
 import java.util.Scanner;
 
 /**
- * Custom Consumer using Kafka for messaging.
+ * Custom LiveScoreKafkaConsumer using Kafka for messaging.
  * Reads properties from the run.properties file in
  * src/main/resources.
  */
-public class Consumer {
+public class LiveScoreKafkaConsumer {
     private static Scanner in;
     private static FileInputStream runStream = null;
     private static Properties runProperties = new Properties();
