@@ -9,7 +9,7 @@ Data Encoders<br>
 1. Jeevan Mure
 1. Nikitha Kethireddy
 1. Raghunandan Kumar Naishadam
-## Introduction to Project:
+## Introduction:
 We are getting the live score and commentary using the package called pycricbuzz in python and CricbuzzParser in Java and the data is generated in the form of json format. This data will be streamed through Kafka and stored in MongoDB.Worked on sentiment Analysis in Python and Score Estimation Visulization in powerBI.<br>
 ## Work divisions:
 1. Implementation of Kafka and data extraction: Raghunandan Kumar Naishadam
